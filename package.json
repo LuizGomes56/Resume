@@ -1,15 +1,8 @@
 {
-  "name": "resume",
-  "version": "1.0.0",
-  "description": "Personal Website",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "concurrently \"cd backend && npm start\" \"cd frontend && npm run dev\""
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "concurrently": "^8.2.2"
   }
 }

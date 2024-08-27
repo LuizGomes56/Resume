@@ -6,7 +6,7 @@ import Page from './page';
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <Router>
     <Routes>
-      <Route path="/" element={<Page />} />
+      <Route path="/resume" element={<Page />} />
     </Routes>
   </Router>
 );
